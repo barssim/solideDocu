@@ -1,0 +1,44 @@
+login:
+_____
+
+Benuzer gibt sein username und sein passwort ein. Das System prüft das gegen 
+die in der Datenbank "table tbUser" gespeicherten daten.
+Falls der Benuzer gefunden wird, wird ein zum neu Article eintragen Fenster geöffnet.
+Falls der Benuzer nicht gefunden wird, öffnet sich ein Fenster mit einer fehlgeschlagen Einloginmeldung, 
+und wird das System dem Benuzer zur Regestrieren anbieten. Beim Eincklicken der angeboten Regestrierungsknopf,
+wird der Benuzer zum Registrierungsfenster weiterleiten wird.
+
+Registrieren:
+_____________
+
+Beim Registrierung soll der Benuzer sein Name, Vorname, MobileNr und sein Email eingeben.
+Falls es in dieser 4 pflichten Feldern nichts eingegeben wurde, warnt das System der Benuzer mit
+einem rot Rahmen um den fehlenden Feld.
+Falls alle Eingaben Korrekt sind, wird ein 4 stellige Code generiert, und als SMS-Nachricht zu von der Benuzer eingetragene 
+MobileNr gesendet. Der Benuzer soll gleichzeitig informiert werden, dass er diese Code auf sein Mobile erhalten hat, dem soll noch 
+eingetragen werden um die Regestrierung vervollständigen zu können. Wird der Korrekt Code in der entsprechenden Feld eingetragen, 
+und mit einem Knopf bestätigt, fügt das System der neue Benuzer in der Datenbank "table tbProfile" hinzu.
+
+Artikel anlegen
+________________
+
+Beim Anlegen eines neues Artikel, meldet sich der Seller an,falls er schon registriert wurde, (falls nicht soll er erstens registrieren) und wählt eine Kategorie für seinem Artikel aus. 
+man soll die pflichten Felder wie Artiklname oder Artikelpreis befüllen.
+
+Artikel updaten
+__________________
+man kann natürlich ein von ihm angelegte Artikel wieder bearbeiten. Dazu meldet sich der Seller an der System an, und 
+kann seine gehörenden Artikeln bearbeiten oder auch löschen.
+
+Suchen
+______
+
+Suchen in WebShop kann jede, auch nicht angemeldeten und nicht registrieten Users.
+
+Ware bestellen
+______________
+
+
+
+
+

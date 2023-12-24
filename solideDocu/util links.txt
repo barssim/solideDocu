@@ -1,0 +1,1 @@
+http://www.codejava.net/java-ee/jsp/sending-e-mail-with-jsp-servlet-and-javamail

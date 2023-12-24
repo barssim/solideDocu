@@ -1,0 +1,107 @@
+CREATE TABLE TB_SELLER
+(
+SELLERNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+SURNAME varchar(255) NOT NULL,
+SELLERNAME varchar(255),
+PASSWORD varchar(255),
+CONTACTNO int,
+constraint fk_CONTACTNO  
+            foreign key (CONTACTNO)  
+            references TB_CONTACT (CONTACTNO) 
+			 on delete restrict ,
+LOCATIONNO int,
+constraint fk_SELLER_LOCATION  
+            foreign key (LOCATIONNO)  
+            references TB_LOCATION (LOCATIONNO) 
+			 on delete restrict,
+PRIMARY KEY (SELLERNO)
+);
+CREATE TABLE TB_SELLER
+(
+SELLERNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+SURNAME varchar(255) NOT NULL,
+SELLERNAME varchar(255),
+PASSWORD varchar(255),
+CONTACTNO int,
+constraint fk_CONTACTNO  
+            foreign key (CONTACTNO)  
+            references TB_CONTACT (CONTACTNO) 
+			 on delete restrict ,
+LOCATIONNO int,
+constraint fk_LOCATIONNO  
+            foreign key (LOCATIONNO)  
+            references TB_LOCATION (LOCATIONNO) 
+			 on delete restrict,
+PRIMARY KEY (SELLERNO)
+);
+CREATE TABLE TB_ARTICLE
+(
+ARTICLENO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+ARTICLENAME varchar(255),
+ARTICLEDESCRIPTION varchar(255),
+CATEGORYNO int,
+constraint fk_CATEGORYNO  
+            foreign key (CATEGORYNO)  
+            references TB_CATEGORY (CATEGORYNO) 
+			 on delete restrict,
+LOCATIONNO int,
+constraint fk_LOCATIONNO  
+            foreign key (LOCATIONNO)  
+            references TB_LOCATION (LOCATIONNO) 
+			 on delete restrict,
+
+PRIMARY KEY (ARTICLENO)
+);
+CREATE TABLE TB_LOCATION
+(
+LOCATIONNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+LOCATIONNAME varchar(255),
+PRIMARY KEY (LOCATIONNO)
+);
+CREATE TABLE TB_CATEGORY
+(
+CATEGORYNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+CATEGORYNAME varchar(255),
+PRIMARY KEY (CATEGORYNO)
+);
+CREATE TABLE TB_CATEGORY
+(
+CATEGORYNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+CATEGORYNAME varchar(255)
+PRIMARY KEY (CATEGORYNO)
+);
+CREATE TABLE TB_CONTACT
+(
+CONTACTNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+ADDRESSE varchar(255),
+EMAIL varchar(255),
+TELEFONNR varchar(255),
+PRIMARY KEY (CONTACTNO)
+);
+CREATE TABLE TB_SELLER
+(
+SELLERNO int not null GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1),
+SURNAME varchar(255) NOT NULL,
+SELLERNAME varchar(255),
+PASSWORD varchar(255),
+CONTACTNO int,
+constraint fk_CONTACTNO  
+            foreign key (CONTACTNO)  
+            references TB_CONTACT (CONTACTNO) 
+			 on delete restrict 
+LOCATIONNO int,
+constraint fk_LOCATIONNO  
+            foreign key (LOCATIONNO)  
+            references TB_LOCATION (LOCATIONNO) 
+			 on delete restrict
+PRIMARY KEY (SELLERNO)
+);
+CREATE TABLE TB_SELLER
+(
+SELLERNO int NOT NULL AUTO_INCREMENT,
+SURNAME varchar(255) NOT NULL,
+SELLERNAME varchar(255),
+PASSWORD varchar(255),
+CONTACTNO int
+PRIMARY KEY (SELLERNO)
+);

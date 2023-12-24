@@ -1,0 +1,1 @@
+INSERT INTO tb_CATEGORY( CATEGORYNAME, CrUserNo, CrUserDtTm,ChUserNo, ChUserDtTm ) VALUES(  'Système de freinage', '-1', now(), '-1', now());

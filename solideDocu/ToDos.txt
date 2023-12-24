@@ -1,0 +1,14 @@
+work with SVN 
+extract the table structure 
+   -> in netbeans with grab structure and recreate table
+search: JTA Multiple databases
+lima Webhosting
+Android app for warehousmanagment.
+one class for alle needed constants
+use of sonarlint plugin
+use of ACX for client in depot
+create soap services for solide to be consumed from app: https://www.journaldev.com/9131/soap-webservices-in-java-example-eclipse
+backend server:
+https://www.raspberrypi.org/documentation/installation/installing-images/
+https://www.pollin.de/p/raspberry-pi-3-model-b-starter-kit-702852
+solideConfig musst be moved to project folder 

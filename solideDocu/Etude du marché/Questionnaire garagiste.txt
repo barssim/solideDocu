@@ -1,0 +1,17 @@
+
+Questionnaire:
+--------------
+
+Combien de fois par semaine, vous achetez des pieces    déttaché?
+Vous achetez les nouveaus ou de laferaille?
+Combien de Kilometres la feraille est loin de votre Garage?
+Quelle moyen de transport vous prenez pour allez chercher a laferaille?
+Combien de Kilometre les vendeurs de nouveaus sont situe loin de votre garage?
+Combien du temps vous avez besoin pour allez chercher et acheter une piece?
+Est ce qu'il y a la possibilité de faire retourner au vendeur une piece que vous n'avez pas besoin?
+Vous pouvez chercher en internet?
+Possedez-vous d'un smartphone?
+
+			 
+
+

@@ -1,0 +1,33 @@
+
+Questionaire:
+-------------
+
+Comment gerez-vous votre Stock:
+     Avez-vous un logiciel de gestion de Stock?
+      - Si oui, est ce que vous faite la mise a jour pour les  	 	articles disponibles.
+      - Si non est ce que vous désirez gerer votre depot d'une 	maniere informatisé 
+Possedez vous un acces en internet?
+Vos clients vienent de la même ville que la votre, ou d'ailleur.
+Combien de pieces vendez-vous par jour.
+Grantiez-vous un transport pour vos client.
+La majorité des clients sont des garagistes ou des privés.
+Quelle est le mode de payment préféré: cash, cheque, transfèrt banquaire...
+Est ce que vous accepter une retoure des pièces indésirables par vos clients? Si oui sous quelles circonstances?
+Quellez les marques (selon les constucteurs) des pièces les plus demandés?     
+Est ce que vous executer des ventes par telephone?
+         Si oui comment ca ce passe normalement?
+Comment gerez-vous une publicité de votre entreprise: avez vous des cartes visite, avez vous un website, etc...
+Avez-vous autre locals? filials, dépots...
+Vous possedez de combien de personels?
+Ils executent les mêmes taches, ou chacun a sa tache spécifique.
+   
+
+
+Objectives:
+-----------
+Desirez vous vendre vos pieces en internet parallelment.
+     ( 7 jours, 24h sur 24h, et dans une large zone geographique,
+       ca veut dire, cibler plus des clients)
+Est que vous serez prêt d'executer (collecter) une liste de commandes lancé online? et la préparé pour un distributeur?
+Est ce que vous pouvez envisager un retour des pièces indesirables dans un délai d'une semaine?
+Pouvez-vous envisagé un payment aprés livraison?
